@@ -2,7 +2,7 @@
 Sample POC to exemplify the implementation of REST APIs based on Node.js, Express, Passport, and JSON Web Tokens (JWT)
 
 * index.js
-> [Node.js](https://nodejs.org/en/) project that presents the implementation to exemplify the design and construction of REST APIs using Node.js, Express, Passport, and JSON Web Tokens (JWT);
+> [Node.js](https://nodejs.org/en/) project that presents the implementation to exemplify the design of REST APIs using Node.js, Express, Passport, and JSON Web Tokens (JWT);
 
 Usage:
 ```javascript
