@@ -1,0 +1,2 @@
+npm init -y
+npm install --save express body-parser passport passport-jwt jsonwebtoken lodash keypair moment moment-timezone

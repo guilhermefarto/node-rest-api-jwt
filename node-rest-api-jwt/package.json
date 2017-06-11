@@ -1,0 +1,31 @@
+{
+  "name": "node-rest-api-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "rest",
+    "api",
+    "authentication",
+    "passport",
+    "jwt",
+    "token"
+  ],
+  "author": "Guilherme de Cleva Farto",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "keypair": "^1.0.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  }
+}
