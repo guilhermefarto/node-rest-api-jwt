@@ -1,0 +1,75 @@
+{
+	"variables": [],
+	"info": {
+		"name": "node-jwt",
+		"_postman_id": "8ada05f6-0ac4-9023-1a62-ec9ba63b8201",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [{
+		"name": "/",
+		"request": {
+			"url": "http://localhost:3000",
+			"method": "GET",
+			"header": [],
+			"body": {},
+			"description": ""
+		},
+		"response": []
+	}, {
+		"name": "/login",
+		"request": {
+			"url": "http://localhost:3000/login",
+			"method": "POST",
+			"header": [{
+				"key": "Content-Type",
+				"value": "application/json",
+				"description": ""
+			}],
+			"body": {
+				"mode": "raw",
+				"raw": "{\n\t\"user\": \"guilherme.farto\",\n\t\"password\": \"pwd@123\"\n}"
+			},
+			"description": ""
+		},
+		"response": []
+	}, {
+		"name": "/secret",
+		"request": {
+			"url": "http://localhost:3000/secret",
+			"method": "GET",
+			"header": [{
+				"key": "Authorization",
+				"value": "JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibWFpbCI6Imd1aWxoZXJtZS5mYXJ0b0BnbWFpbC5jb20iLCJpYXQiOjE0OTcxODg3NjMsImV4cCI6MTQ5NzE5MDU2M30.b9O4_RShzsbTaNmJVfOEmBQ_Q1usBp1JFadhJcot16jY4RgqGaeKYRfk09d9VD7ja4I6_mf85uhgBlIy1zqQ8lhAP8L9KkKJhZSotcMyzRYr64CP0dklXwaHW_t6_2Pcbz-u4VVH0ilKlBRCvbObyifEJMeiNntzXbm1f5GAFTd0JmMzdFukuv-eQBIMy0JPf3nEd4XMmNMlnW-VTOFmn_1vZGUurf_XkGwHTFvHMqgQ9mFDbZyrg29bpLAbNjWF_TT292BoArr02q3xBdp8eDsD8b9XhzYy1GvKK6Ur79JCZkCKtPtDsHq0F0JkrxmsKLunuJkUQVeO8kbKeWjOrA",
+				"description": "",
+				"disabled": true
+			}, {
+				"key": "x-access-token",
+				"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibWFpbCI6Imd1aWxoZXJtZS5mYXJ0b0BnbWFpbC5jb20iLCJpYXQiOjE0OTcxODg3NjMsImV4cCI6MTQ5NzE5MDU2M30.b9O4_RShzsbTaNmJVfOEmBQ_Q1usBp1JFadhJcot16jY4RgqGaeKYRfk09d9VD7ja4I6_mf85uhgBlIy1zqQ8lhAP8L9KkKJhZSotcMyzRYr64CP0dklXwaHW_t6_2Pcbz-u4VVH0ilKlBRCvbObyifEJMeiNntzXbm1f5GAFTd0JmMzdFukuv-eQBIMy0JPf3nEd4XMmNMlnW-VTOFmn_1vZGUurf_XkGwHTFvHMqgQ9mFDbZyrg29bpLAbNjWF_TT292BoArr02q3xBdp8eDsD8b9XhzYy1GvKK6Ur79JCZkCKtPtDsHq0F0JkrxmsKLunuJkUQVeO8kbKeWjOrA",
+				"description": ""
+			}],
+			"body": {},
+			"description": ""
+		},
+		"response": []
+	}, {
+		"name": "/secretDebug",
+		"request": {
+			"url": "http://localhost:3000/secretDebug",
+			"method": "GET",
+			"header": [{
+				"key": "Authorization",
+				"value": "JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibWFpbCI6Imd1aWxoZXJtZS5mYXJ0b0BnbWFpbC5jb20iLCJpYXQiOjE0OTcxODg3NjMsImV4cCI6MTQ5NzE5MDU2M30.b9O4_RShzsbTaNmJVfOEmBQ_Q1usBp1JFadhJcot16jY4RgqGaeKYRfk09d9VD7ja4I6_mf85uhgBlIy1zqQ8lhAP8L9KkKJhZSotcMyzRYr64CP0dklXwaHW_t6_2Pcbz-u4VVH0ilKlBRCvbObyifEJMeiNntzXbm1f5GAFTd0JmMzdFukuv-eQBIMy0JPf3nEd4XMmNMlnW-VTOFmn_1vZGUurf_XkGwHTFvHMqgQ9mFDbZyrg29bpLAbNjWF_TT292BoArr02q3xBdp8eDsD8b9XhzYy1GvKK6Ur79JCZkCKtPtDsHq0F0JkrxmsKLunuJkUQVeO8kbKeWjOrA",
+				"description": "",
+				"disabled": true
+			}, {
+				"key": "x-access-token",
+				"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibWFpbCI6Imd1aWxoZXJtZS5mYXJ0b0BnbWFpbC5jb20iLCJpYXQiOjE0OTcxODg3NjMsImV4cCI6MTQ5NzE5MDU2M30.b9O4_RShzsbTaNmJVfOEmBQ_Q1usBp1JFadhJcot16jY4RgqGaeKYRfk09d9VD7ja4I6_mf85uhgBlIy1zqQ8lhAP8L9KkKJhZSotcMyzRYr64CP0dklXwaHW_t6_2Pcbz-u4VVH0ilKlBRCvbObyifEJMeiNntzXbm1f5GAFTd0JmMzdFukuv-eQBIMy0JPf3nEd4XMmNMlnW-VTOFmn_1vZGUurf_XkGwHTFvHMqgQ9mFDbZyrg29bpLAbNjWF_TT292BoArr02q3xBdp8eDsD8b9XhzYy1GvKK6Ur79JCZkCKtPtDsHq0F0JkrxmsKLunuJkUQVeO8kbKeWjOrA",
+				"description": ""
+			}],
+			"body": {},
+			"description": ""
+		},
+		"response": []
+	}]
+}
